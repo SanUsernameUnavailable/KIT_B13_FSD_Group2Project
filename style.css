@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #FFF0F5;
+    color: #AD1457;
+}
+
+
+header {
+    background: linear-gradient(135deg, #F8BBD0, #F48FB1);
+    padding: 30px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+header p {
+    margin-top: 5px;
+    background-color: #F48FB1;
+    font-size: 16px;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.shop-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 20px;
+    padding: 30px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.product-card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.product-card h3 {
+    margin: 15px 0 5px;
+    font-size: 18px;
+}
+
+.price {
+    color: #F48FB1;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+button {
+    background: #F8BBD0;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background: #F48FB1;
+    transform: scale(1.05);
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #F8BBD0;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+}
+.contact-info {
+    text-align: center;
+    padding: 30px 20px;
+    background: #F8BBD0;
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.contact-info a {
+    color: rgba(4, 0, 255, 0.959);
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
